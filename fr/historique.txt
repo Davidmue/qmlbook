@@ -1,0 +1,4 @@
+Historique des changements
+--------------------------
+20150725 - création fork, création branche "french translation"
+- création sous-dossier fr (sous-dossier contenant les tradutions en français), ok ok git sait tout cela de toute façon ...
