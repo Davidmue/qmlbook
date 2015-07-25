@@ -35,27 +35,27 @@ Qt 5 est un raffraichissement complet de la version Qt 4 très réussie. Avec Qt
 
 * **Portabilité cross-platform**: Avec l'abstration de la plateforme Qt consolidée, il est maintenant possible de porter facilement et rapidement Qt sur une plage de plateformes élargie. Qt 5 est structurée autour d'un concept de Qt Essentials et d'Add-ons, lesquels permettent au développeurs d'OS de mettre l'accent sur les modules essentiels et amènent ensemble un plus petit runtime.
 
-* **Développement ouvert**: Qt is now a truly open-governance project hosted at `qt.io <http://qt.io>`_. The development is open and community driven.
+* **Développement ouvert**: Qt est maintenant un projet complètement open-governance hébergé sous `qt.io <http://qt.io>`_. Le développement est ouvert et piloté par la communauté. 
 
 
 
-Qt 5 Introduction
+Introduction à Qt 5 
 =================
 
 
 Qt Quick
 --------
 
-Qt Quick is the umbrella term for the user interface technology used in Qt 5. Qt Quick itself is a collection of several technologies:
+Qt Quick est un terme parapluie désignant la technologie d'interface utilisateur utilisée par Qt 5. Qt Quick est lui-même une collection de diverses technologies : 
 
-* QML - Markup language for user interfaces
-* JavaScript - The dynamic scripting language
-* Qt C++ - The highly portable enhanced c++ library
+* QML - language déclaratif pour interfaces utilisateur 
+* JavaScript - le language de script dynamique 
+* Qt C++ - La librairie C++ améliorée hautement portable 
 
 .. image:: assets/qt5_overview.png
 
 
-Similar to HTML, QML is a markup language. It is composed of tags called elements in Qt Quick enclosed in curly brackets ``Item {}``. It was designed from the ground up for the creation of user interfaces, speed and easier reading for developers. The user interface can be enhanced using JavaScript code. Qt Quick is easily extendable with your own native functionality using Qt C++. In short the declarative UI is called the front-end and the native parts are called the back-end. This allows you to separate the computing intensive and native operation of your application from the user interface part.
+D'une manière similaire au HTML, QML est un language de balisage. Il est composé de balises appelées éléments dans Qt Quick entourées par des accolades ``élément {}``. Il a été conçu depuis le début pour la création d'interfaces utilisateur, la vitesse et la facilité de lecture des développeurs. L'interface utilisateur peut être améliorée en utilisant du code JavaScript. Vous pouvez facilement étendre Qt Quick avec votre propre fonctionnalité en code natif utilisant le C++. Pour faire court, l'UI déclarative est appelée front-end et les parties natives sont appelées back-end. Ceci permet de séparer les calculs intensifs et les opérations natives de votre application de son interface utilisateur. 
 
 In a typical project the front-end is developed in QML/JavaScript and the back-end code, which interfaces with the system and does the heavy lifting is developed using Qt C++. This allows a natural split between the more design oriented developers and the functional developers. Typically the back-end is tested using Qt own unit testing framework and exported for the front-end developers to be used.
 
