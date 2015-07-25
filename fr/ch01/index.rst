@@ -22,7 +22,7 @@ Préface
 
 Qt 4 a évolué depuis 2005 et il a fourni un socle solide pour des milliers d'applications mais aussi pour des systèmes mobiles et bureau complets. Les façons d'utiliser les ordinateurs ont changé ces dernières années. Des PCs fixes en passant par les ordinateurs portables pour finir par les mobiles actuels. L'ordinateur classique et de plus en plus remplacé par des écrans tactiles connectés en permanence. Avec ceci le paradigme UX a lui aussi changé. Là où l'interface utilisateur Windows dominait le monde, nous passons plus de temps sur d'autres écrans avec d'autres languages UI (User Interface / interface utilisateur).  
 
-Qt4 a été conçu pour satisfaire le monde du desktop et pour avoir un ensemble de widgets UI cohérents sur toutes les plateformes majeures. Le défi des utilisateurs Qt a changé aujourd'hui. Il s'agit de fournir une interface utilisateur tactile pour permettre des UI modernes sur tous les systèmes majeurs mobiles et bureau. L'introduction de la technologie Qt Quick a débuté avec Qt 4.7. Cette technologie permet aux utilisateurs de créer un ensemble de composants d'interface utilisateur depuis les éléments simples jusqu'à la nouvelle interface utlisateur complète, guidés par les demandes des clients. 
+Qt 4 a été conçu pour satisfaire le monde du desktop et pour avoir un ensemble de widgets UI cohérents sur toutes les plateformes majeures. Le défi des utilisateurs Qt a changé aujourd'hui. Il s'agit de fournir une interface utilisateur tactile pour permettre des UI modernes sur tous les systèmes majeurs mobiles et bureau. L'introduction de la technologie Qt Quick a débuté avec Qt 4.7. Cette technologie permet aux utilisateurs de créer un ensemble de composants d'interface utilisateur depuis les éléments simples jusqu'à la nouvelle interface utlisateur complète, guidés par les demandes des clients. 
 
 Attentions apportées à Qt 5
 ---------
@@ -31,9 +31,9 @@ Qt 5 est un raffraichissement complet de la version Qt 4 très réussie. Avec Qt
 
 * **Excellents graphiques**: Qt Quick 2 est basé sur OpenGL (ES) et utilise une implémentation de graphe de scène. La pile d'objets graphiques recomposés apporte un nouveau niveau d'effets graphiques combiné avec une facilité d'utilisation jamais vues jusque ici dans le domaine. 
 
-* **Productivité du dévelopeur**: QML and JavaScript are the primary means for UI creation. The back-end will be driven by C++. The split between JavaScript and C++ allows a fast iteration for front-end developers concentrating on creating beautiful user interfaces and back-end C++ developers concentrating on stability, performance and extending the runtime.
+* **Productivité du dévelopeur**: QML et JavaScript sont d'abord pensés pour la création d'interfaces graphiques. Le back-end sera développé en C++. La séparation entre JavaScript et C++ permet une itération rapide pour les développeurs front-end se concentrant sur la création d'interface graphique magnifique laissant les développeurs C++ back-end se concentrer sur la stabilité, les performances et l'extension du runtime.
 
-* **Portabilité cross-platform**: With the consolidated Qt Platform Abstraction, it is now possible to port Qt to a wider range of platforms easier and faster. Qt 5 is structured around the concept of Qt Essentials and Add-ons, which allows OS developer to focus on the essentials modules and leads to a smaller runtime altogether.
+* **Portabilité cross-platform**: Avec l'abstration de la plateforme Qt consolidée, il est maintenant possible de porter facilement et rapidement Qt sur une plage de plateformes élargie. Qt 5 est structurée autour d'un concept de Qt Essentials et d'Add-ons, lesquels permettent au développeurs d'OS de mettre l'accent sur les modules essentiels et amènent ensemble un plus petit runtime.
 
 * **Développement ouvert**: Qt is now a truly open-governance project hosted at `qt.io <http://qt.io>`_. The development is open and community driven.
 
