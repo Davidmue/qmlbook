@@ -20,7 +20,9 @@ Préface
 
 .. rubric:: Historique
 
-Qt 4 has evolved since 2005 and provided a solid ground for thousands of applications and even full desktop and mobile systems. The usage patterns of computer users changed in the recent years. From stationary PCs towards portable notebook and nowadays mobile computers. The classical desktop is more and more replaced with mobile touch-based always connected screens. With it the desktop UX paradigms also changes. Where as in the past Windows UI has dominated the world we spend more time nowadays on other screens with another UI language.
+Qt 4 a évolué depuis 2005 et il a fourni un socle solide pour des milliers d'applications mais aussi pour des systèmes mobiles et bureau complets. Les façons d'utiliser les ordinateurs ont changé ces dernières années. Des PCs fixes en passant par les ordinateurs portables pour finir par les mobiles actuels. L'ordinateur classique et de plus en plus remplacé par des écrans tactiles connectés en permanence. Avec ceci le paradigme UX a lui aussi changé. Là où l'interface utilisateur Windows dominait le monde, nous passons plus de temps sur d'autres écrans avec d'autres languages UI (User Interface / interface utilisateur).  
+
+Qt4 a été conçu pour satisfaire le monde du desktop et pour avoir un ensemble de widgets UI cohérents sur toutes les plateformes majeures. Le défi des utilisateurs Qt a changé aujourd'hui et il démenti plus pour fournir une interface utilisateur basé sur le touché pour une  pensée pour l'utilisateur final  pour permettre une interface moderne sur tous les systèmes mobiles et systèmes de bureau. 
 
 Qt 4 was designed to satisfy the desktop world to have a coherent set of UI widgets available on all major platforms. The challenge for Qt users has changed today and it lies more to provide a touch-based user interface for a customer driven user interface and to enable modern user interface on all major desktop and mobile systems. Qt 4.7 started to introduce the Qt Quick technology which allows users to create a set of user interface components from simple elements to achieve a complete new UI, driven by customer demands.
 
